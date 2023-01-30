@@ -1,0 +1,62 @@
+Jako základní simulace byly použity simulace s paramtery nastavenými na mediány z dané kategorie. 
+Níže je vždy uvedena kategorie výchozí simulace, parametr, který se mění, hodnota na kterou byl změněn a nový typ chování, ke kterému změna vedla. 
+
+chronic:
+   l3 -> 0,05 -> vyleceno
+   d -> 0,023 -> smrt-E
+   l1 -> 0,032 -> nezarazeno
+   l2 -> 0,74 -> smrt-P
+   l3 -> 0,71 -> smrt-E
+
+dc-exp:
+   m3 -> 0,074 -> smrt-E
+   m3 -> 0,071 -> smrt-E
+   m3 -> 0,073 -> smrt-E
+   l5 -> 0,052 -> dc-exp
+   l5 -> 0,04 -> dc-exp
+   l5 -> 0,054 -> dc-exp
+   l5 -> 0,05 -> dc-exp
+   m2 -> 0,019 -> smrt-E
+
+nezarazeno:
+   m3 -> 0,027 -> smrt-E
+   d -> 0,023 -> smrt-E
+   l1 -> 0,032 -> smrt-P
+   l2 -> 0,074 -> smrt-P
+   l3 -> 0,071 -> smrt-E
+   l4 -> 0,05 -> vyleceno
+   m2 -> 0,069 -> vyleceno
+
+smrt-E:
+   m3 -> 0,027 -> nezarazeno
+
+smrt-P:
+   m3 -> 0,027 -> dc-exp
+   l2 -> 0,028 -> nezarazeno
+   l2 -> 0,026 -> nezarazeno
+
+vyleceno:
+   m3 -> 0,074 -> chronic
+   m3 -> 0,071 -> chronic
+   m3 -> 0,073 -> chronic
+   m3 -> 0,027 -> dc-exp
+   d -> 0,057 -> chronic
+   d -> 0,048 -> chronic
+   d -> 0,061 -> chronic
+   d -> 0,023 -> smrt-E
+   k1 -> 0,037 -> chronic
+   k1 -> 0,036 -> chronic
+   k1 -> 0,073 -> nezarazeno
+   k2 -> 0,067 -> chronic
+   k3 -> vsechny zmeny -> chronic
+   l1 -> 0,074 -> chronic
+   l1 -> 0,066 -> chronic
+   l2 -> 0,074 -> smrt-P
+   l3 -> 0,055 -> chronic
+   l3 -> 0,071 -> smrt-E
+   l5 -> 0,003 -> nezarazeno
+   m1 -> 0,027 -> chronic
+   m2 -> 0,019 -> chronic
+   m2 -> 0,069 -> dc-exp
+   m2 -> 0,032 -> chronic
+   m2 -> 0,033 -> chronic

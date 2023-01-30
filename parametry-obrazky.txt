@@ -1,0 +1,34 @@
+Parametry použité k tvorbě většiny obrázků se nachází ve složce Data/Typy-chovani v podsložce příslušného typu v souboru params-analysed. Každý parametr má vyhrazený jeden odstavec, kde poslední (třetí) hodnota je medián, který byl použit jako hodnota parametru.
+Parametry jsou zde uvedeny v pořadí: m3, d, k1, k2, k3, k4, l1, l2, l3, l4, l5, m1, m2
+
+Výjimku tvoří kategorie dc-exp a vyleceno, pro které bylo potřeba najít náhradní ukázkový  průběh. Použité parametry jsou uvedeny v tomto souboru.
+
+dc-exp:
+    :m3 => 0.025278746701575018,
+    :d => 0.0002922295926298113,
+    :k1 => 0.09835124032887549,
+    :k2 => 0.06712510069670678,
+    :k3 => 2.1014673935737527e-5,
+    :k4 => 0.08574096557097169,
+    :l1 => 0.05125942156490777,
+    :l2 => 0.046051639594028054,
+    :l3 => 0.04671669594059266,
+    :l4 => 0.016325518239334424,
+    :l5 => 0.05051283577993102,
+    :m1 => 0.04285221925590215,
+    :m2 => 0.028850630858315653
+
+vyleceno:
+    :m3 => 0.09758680286138738,
+    :d => 0.05950445984938177,
+    :k1 => 0.03190303489750618,
+    :k2 => 0.04098978889540113,
+    :k3 => 0.041653528031745685,
+    :k4 => 0.09483834978963464,
+    :l1 => 0.07101472752347589,
+    :l2 => 0.06698303427838516,
+    :l3 => 0.058358349138781,
+    :l4 => 0.09724697576046239,
+    :l5 => 0.05432135689025124,
+    :m1 => 1.368785803095296e-5,
+    :m2 => 0.02994314806229509
